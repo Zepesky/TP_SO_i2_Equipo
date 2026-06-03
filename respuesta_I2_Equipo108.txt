@@ -3,11 +3,53 @@ Participantes
 ===========================
 -Nombre: Garbin Alejo
 -Nombre: Zepesky Fabrizio
--Nombre:
+-Nombre: Romero Matheo
 ===========================
 Respuestas:
 a- Para actualizar mi repositorio se uso el comando git pull origin main 
 b- Si puede también reflejar los cambios en su repositorio 
 c- Sí, de la misma forma git pull https://github.com/ALFA/TP_SO_i2_Equipo.git main
 d- No se pierden. Git fusiona los cambios. Si hay conflictos entre los cambios de ambos, Git avisa y hay que resolverlos manualmente.
-e-   
+e- Los comando utilizados para resolver este trabajo son:
+── BETA ──────────────────────────────────
+# 1. Crear repo en GitHub con readme y fork.txt
+git clone https://github.com/BETA/TP_SO_i2_Equipo.git
+cd TP_SO_i2_Equipo
+# 2. Crear NuevoDato.txt
+git add .
+git commit -m "agrego NuevoDato.txt"
+git push origin main
+# 3. Crear respuesta_I2_EquipoX.txt con respuestas c y d
+git add .
+git commit -m "agrego respuestas c y d"
+git push origin main
+── GAMMA ─────────────────────────────────
+# 4. Hacer fork del repo de BETA desde GitHub
+git clone https://github.com/GAMMA/TP_SO_i2_Equipo.git
+cd TP_SO_i2_Equipo
+# 5. Editar fork.txt con nombre, IP y hora
+git add .
+git commit -m "datos gamma"
+git push origin main
+# 6. Actualizar fork al estado de BETA
+git pull https://github.com/BETA/TP_SO_i2_Equipo.git main
+git push origin main
+# 7. Agregar respuestas a y b al archivo
+git add .
+git commit -m "agrego respuestas a y b"
+git push origin main
+── ALFA ──────────────────────────────────
+# 8. Hacer fork del repo de BETA desde GitHub
+git clone https://github.com/ALFA/TP_SO_i2_Equipo.git
+cd TP_SO_i2_Equipo
+# 9. Editar fork.txt con nombre, IP y hora
+git add .
+git commit -m "datos alfa"
+git push origin main
+# 10. Actualizar fork al estado de BETA
+git pull https://github.com/BETA/TP_SO_i2_Equipo.git main
+git push origin main
+# 11. Agregar respuesta e al archivo
+git add .
+git commit -m "agrego respuesta e"
+git push origin main
