@@ -1,0 +1,4 @@
+datos del equipo
+
+Nombre: Zepesky Fabrizio | IP:192.168.56.1 | Hora 12:18 
+Nombre: Garbin Alejo     | IP:192.178.55.1 | Hora 11:13
