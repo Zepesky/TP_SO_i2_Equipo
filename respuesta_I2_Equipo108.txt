@@ -6,8 +6,8 @@ Participantes
 -Nombre:
 ===========================
 Respuestas:
-a- para actualizar mi repositorio se uso el comando git pull origin main 
-b- si puede también reflejar los cambios en su repositorio 
-c-
-d-
-e-  
+a- Para actualizar mi repositorio se uso el comando git pull origin main 
+b- Si puede también reflejar los cambios en su repositorio 
+c- Sí, de la misma forma git pull https://github.com/ALFA/TP_SO_i2_Equipo.git main
+d- No se pierden. Git fusiona los cambios. Si hay conflictos entre los cambios de ambos, Git avisa y hay que resolverlos manualmente.
+e-   
