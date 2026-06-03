@@ -1,13 +1,13 @@
 ===========================
 Participantes
 ===========================
--Nombre:
+-Nombre: Garbin Alejo
 -Nombre:
 -Nombre:
 ===========================
 Respuestas:
-a-
-b-
+a- para actualizar mi repositorio se uso el comando git pull origin main 
+b- si puede también reflejar los cambios en su repositorio 
 c-
 d-
 e-  
